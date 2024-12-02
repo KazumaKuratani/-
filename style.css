@@ -1,0 +1,213 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-color: #101010;
+  display: flex;
+}
+.hero h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 10px;
+}
+.hero h1 {
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.hero h1 span:nth-child(1) {
+  color: aqua;
+}
+.hero h1 span:nth-child(2) {
+  color: aqua;
+}
+.hero h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.hero-title {
+  margin-top: 280px;
+  margin-left: 200px;
+}
+
+.image-now {
+  margin-left: 300px;
+  margin-top: 150px;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: #191919;
+  display: flex;
+}
+
+.image-me {
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+.main-title {
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+  max-width: 600px;
+}
+.main-title h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.main-section {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.self-introduction-portfolio {
+  align-items: center;
+}
+
+.self-introduction-portfolio-container {
+  height: 100vh;
+  width: 100%;
+  background-color: #101010;
+}
+.self-introduction-portfolio-container h4 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.self-introduction-portfolio-paragraph {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 60px;
+}
+
+.self-introduction {
+  background-color: #252525;
+  width: 300px;
+  height: 350px;
+  border-radius: 18px;
+  word-wrap: break-word;
+  white-space: normal;
+  padding: 20px 20px;
+}
+
+.self-introduction-section {
+  margin-top: 20px;
+}
+.self-introduction-section h6 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: aqua;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.self-introduction-section p {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.image-container-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.Inkscape-logo-img {
+  width: 90px;
+  height: 90px;
+  filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+}
+
+.portfolio {
+  background-color: #252525;
+  width: 300px;
+  height: 350px;
+  border-radius: 18px;
+  word-wrap: break-word;
+  white-space: normal;
+  padding: 20px 20px;
+}
+
+.portfolio-section {
+  margin-top: 20px;
+}
+.portfolio-section h6 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: aqua;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.portfolio-section p {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.image-container-now {
+  display: flex;
+  justify-content: center;
+}
+
+.img--now {
+  width: 90px;
+  height: 90px;
+  filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+}
+
+.self-introduction-portfolio a, .portfolio a {
+  color: aqua;
+}
+.self-introduction-portfolio a:hover, .portfolio a:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: #191919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer p {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.social a {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: lightseagreen;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.social a:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=style.css.map */
